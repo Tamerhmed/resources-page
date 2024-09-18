@@ -1,0 +1,252 @@
+@font-face {
+  font-family: 'arc';
+  src: url('../font/arc.eot?78773818');
+  src: url('../font/arc.eot?78773818#iefix') format('embedded-opentype'),
+       url('../font/arc.woff2?78773818') format('woff2'),
+       url('../font/arc.woff?78773818') format('woff'),
+       url('../font/arc.ttf?78773818') format('truetype'),
+       url('../font/arc.svg?78773818#arc') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'arc';
+    src: url('../font/arc.svg?78773818#arc') format('svg');
+  }
+}
+*/
+[class^="plc-"]:before, [class*=" plc-"]:before {
+  font-family: "arc";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.plc-f:before { content: '\66'; } /* 'f' */
+.plc-o:before { content: '\6f'; } /* 'o' */
+.plc-w:before { content: '\77'; } /* 'w' */
+
+
+ .hero-1 {
+                        stroke: #001876;
+                        stroke-miterlimit: 10;
+                    }
+
+                    .hero-1,
+                    .hero-2 {
+                        fill: none;
+                    }
+
+                    .hero-3 {
+                        fill: url(#sunhat-gradient-3);
+                    }
+
+                    .hero-4 {
+
+                        font-family: "acumin-variable", sans-serif;
+                        font-size: 84.9px;
+                        font-variation-settings: "slnt"0, "wdth"74, "wght"800;
+                        fill: #001876;
+
+                    }
+
+                    .hero-5 {
+                        letter-spacing: 0em;
+                    }
+
+                    .hero-6 {
+                        letter-spacing: 0em;
+                    }
+
+                    .hero-7 {
+                        fill: #d4e7f2;
+                    }
+
+                    .hero-8 {
+                        fill: url(#sunhat-gradient-2-4);
+                    }
+
+                    .hero-9 {
+                        fill: #fff;
+                    }
+
+                    .hero-10 {
+                        fill: url(#sunhat-gradient-2-2);
+                    }
+
+                    .hero-11 {
+                        fill: url(#sunhat-gradient-2-3);
+                    }
+
+                    .hero-12 {
+                        letter-spacing: 0em;
+                    }
+
+                    .hero-13 {
+                        fill: url(#apple-gradient);
+                    }
+
+                    .hero-14 {
+                        letter-spacing: 0em;
+                    }
+
+                    .hero-15 {
+                        fill: url(#sunhat-gradient-2);
+                    }
+
+                    .hero-16 {
+                        clip-path: url(#clippath-1);
+                    }
+
+                    .hero-17 {
+                        fill: #002e34;
+                    }
+
+                    .hero-18 {
+                        fill: #00434e;
+                    }
+
+                    .hero-19 {
+                        letter-spacing: 0em;
+                    }
+
+                    .hero-20 {
+                        letter-spacing: 0em;
+                    }
+
+                    .hero-21 {
+                        letter-spacing: 0em;
+                    }
+
+                    .hero-22 {
+                        letter-spacing: 0em;
+                    }
+
+                    .hero-23 {
+                        fill: #019852;
+                    }
+
+                    .hero-24 {
+                        letter-spacing: 0em;
+                    }
+
+                    .hero-25 {
+                        letter-spacing: 0em;
+                    }
+
+                    .hero-26 {
+                        clip-path: url(#clippath-2);
+                    }
+
+                    .hero-27 {
+                        letter-spacing: 0em;
+                    }
+
+                    .hero-28 {
+                        fill: url(#wrap-gradient);
+                    }
+
+                    .hero-29 {
+                        fill: #0070b0;
+                    }
+
+                    .hero-30 {
+                        letter-spacing: 0em;
+                    }
+
+                    .hero-31 {
+                        fill: url(#linear-gradient);
+                    }
+
+                    .hero-32 {
+                        letter-spacing: 0em;
+                    }
+
+                    .hero-33 {
+                        fill: url(#stem-gradient);
+                    }
+
+                    .hero-34 {
+                        fill: url(#sunhat-gradient-1);
+                    }
+
+                    .hero-35 {
+                        fill: #001876;
+                        font-family: "acumin-variable", sans-serif;
+                        font-size: 277.9px;
+                        font-variation-settings: 'wght'700, 'wdth'50, 'slnt'0;
+                        font-weight: 800;
+                        letter-spacing: 14px;
+                    }
+
+                    .hero-36 {
+                        /*font-variation-settings: 'wght' 700, 'wdth' 50, 'slnt'-9;*/
+                        fill: #0077cc;
+                        font-family: "arc";
+                        font-size: 201px;
+
+                        letter-spacing: -26px;
+                        transform: rotate(-90deg);
+                        font-style: normal;
+                        font-weight: normal;
+
+                        /* fix buttons height, for twitter bootstrap */
+                        line-height: 0;
+                    }
+
+                    .hero-37 {
+                        /*font-variation-settings: 'wght' 700, 'wdth' 50, 'slnt'-9;*/
+                        fill: #0077cc;
+                        font-family: "arc";
+                        font-size: 35px;
+                        letter-spacing: -24px;
+
+                        font-style: normal;
+                        font-weight: normal;
+
+                        /* fix buttons height, for twitter bootstrap */
+                        line-height: 0;
+                    }
+
+
+                    @-moz-document url-prefix() {
+                        .hero-36 {
+                            letter-spacing: -30px;
+                        }
+
+                        .hero-35 {
+                            letter-spacing: 5px;
+                        }
+                    }

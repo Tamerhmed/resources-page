@@ -1,0 +1,364 @@
+html {scroll-behavior: smooth;}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 1.4em;
+    box-sizing: border-box;
+    color: #00373e;
+ /*   background-color: #FFAE00;*/
+}
+
+h1 {margin:.3em 0; font-size: 3.1rem;}
+h2 {margin:0 0 1.7em 0;}
+h3 {margin:1em 0 0 0; font-size: 1.5em}
+
+
+p {line-height: 1.45;}
+li {margin: 10px 0;}
+/* BANNER 
+---------------------------------------*/
+
+#logo-pos {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 79px;
+    z-index: 100;
+
+}
+
+
+
+#logo-pos:hover #logo-bg {
+    fill: #ffffff;
+}
+
+#logo-pos:hover #logo-device {
+    fill: #00373e;
+}
+
+#stage {
+    height: 50vh;
+    background-color: #00373e;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border: 0px solid lime;
+    position: relative;
+
+}
+
+#svg-wtd {
+    border: 0px solid red;
+    /* ff, chrome, edge, safari */
+    width: 100%;
+}
+
+
+
+#wtd-band-mask {
+position: absolute;
+overflow: hidden;	
+width: 100%;
+bottom:0;
+visibility: hidden;
+
+}
+
+.bg100 {
+  background-color:#f8fdf4;
+}
+
+.wtd-100-mar {
+    padding: 2.5em 1.5em 2.5em 1.5em;
+}
+
+.wtd-content {
+    max-width: 820px;
+    margin: auto;
+    padding: 1em;
+    border: 0px solid red;
+}
+
+
+.wtd-content a:hover {
+   /* background-color: #66e6ff;*/
+    background-color: #fff;
+    /*color:#083554;*/
+
+
+  }
+
+.wtd-dets {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.wtd-dets h2 {
+
+    font-size: 5vw;
+    color: #00373e;
+    font-family: Swiss721BT, Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.hide {
+    visibility: hidden;
+}
+
+
+.content {
+   background-color: #FFAE00;
+   background-color: #ffb906;
+}
+
+.column-1 {
+    text-align: center;
+	padding: 20px;
+	margin:0 auto;
+	max-width: 681px;
+	padding-bottom: 30px;
+}
+
+.column-2 {
+    padding: 0px;
+    margin:0 auto;
+    max-width: 1180px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    align-items: stretch;
+}
+
+
+.button-icons {max-width: 100%;}
+
+#footer {
+	background-color: #fff;
+    margin: 0;
+    padding: 20px 30px;
+
+}
+
+.f27 {
+	font-size: .7em;
+	color: #087036;
+	margin-top: 2px;
+	color: #505050;
+}
+.ack {display: inline-block; width: 25px; height: 5px; border-top: 3px solid black;}
+
+.ack-col-1 {border-color:black;}
+.ack-col-2 {border-color:yellow;}
+.ack-col-3 {border-color:red;}
+.ack-col-6 {border-color:#0a50f5;}
+.ack-col-5 {border-color:#FFFFFF;}
+.ack-col-4 {border-color:#04c148;}
+.ack-col-7 {border-color:#000000;}
+
+.phase2 {
+	width: 100%;
+	max-width: 680px;
+}
+
+
+.playersize {
+    width: 95%;  
+    margin: 0 auto;
+    overflow:hidden;
+}
+.playerwrap {
+    position:relative;
+    padding-bottom:56.3%;
+    padding-top:0;
+    height:0;
+}
+.playerwrap video {
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+
+}
+.socials {
+	margin:auto;
+	max-width: 176px;
+}
+
+
+@media screen and (min-width: 720px) {
+    .wtd-dets h2 {
+        font-size: 34px;
+    }
+
+}
+
+/* Portrait */
+@media screen and (orientation:portrait) {
+	body {
+		/*overflow: hidden;*/
+		font-size: 1.1em;
+	}
+	p, li {font-size:1em;}
+
+    #svg-wtd {
+        border: 0px solid yellow;
+        height: 50%;
+        width: 100%;
+    }
+
+    #stage {
+        height: auto !important;
+    }
+
+    #logo-pos {
+        top: 15px;
+        left: 15px;
+        width: 55px;
+    }
+
+    #replay-pos {
+        top: 23px;
+        right: 20px;
+        width: 35px;
+    }
+
+
+        .socials {max-width:135px;}
+
+    /*   #wtd-date, #wtd-hashtag {font-family: Swiss721BT-Roman, Arial;} */
+}
+
+/* IE10+ specific styles go here */
+@media screen and (-ms-high-contrast: active),
+screen and (-ms-high-contrast: none) {
+    #svg-wtd {
+        border: 0px dashed pink;
+        overflow: hidden;
+        /* because the svg is square use the viewport width size - and it works 
+      height: 100vw;*/
+    }
+
+    #logo-pos,
+    #replay-pos {
+        top: 0;
+    }
+}
+
+
+.mobile {
+    display: none;
+}
+
+
+@media (max-width:978px) {
+
+
+    }
+
+@media screen and (max-width: 700px) {
+
+    h1 {font-size: 2.5em;}
+
+    .mobile {
+        display: block;
+    }
+
+        .column-2 {
+        flex-direction: column;
+    }
+}
+
+.logo-wrap {
+	position: absolute;
+	top:20px;
+	left:20px;
+	border: 0px solid red;
+	z-index: 300;
+}	
+
+	.logo-aitsl {
+		width: 75px;
+	}
+
+	.logo-svg {
+		width: 100%;
+	}
+
+	.logo-teal {
+	    fill: #007377;
+	    pointer-events: none;
+	}
+
+	 a.logo-link:hover .logo-teal {
+		fill: blue; 
+	}
+
+	.celb {
+    padding: 3% 4%;
+    background-color: #ffca59;
+    border-radius: 13px;
+    border:4px double white;
+	}
+
+
+    /* Inline SVGs */
+
+.al-1 { fill: #ffffff;}
+.al-2 { fill: #00373e;}
+.al-3 { fill: #ffffff;}
+
+.re-1 {fill: #00373e;}
+.re-2 {fill: #fff; opacity:0.3;}
+
+.wtd-1, .wtd-16 {fill: #00373e;}
+.wtd-11, .wtd-13, .wtd-2, .wtd-6, .hat {fill: #fff;}
+.wtd-3 {fill: #01292e;}
+.wtd-4 {fill: #b4bd00;}
+.wtd-5 {fill: #006269;}
+.wtd-6 {
+font-size: 60.87px;
+font-family: Swiss721BT-Bold, Arial, sans-serif;
+font-weight: bold;
+text-anchor:start;
+stroke:#ffffff;
+stroke-width:2px;
+}
+.wtd-7 {fill: #262b28;}
+.wtd-8 {fill: #053d44;}
+.wtd-10 {fill: #019147;}
+
+.wtd-11 {
+font-size: 53px !important;
+font-family: Swiss721BT-Bold, Arial, sans-serif;
+font-weight: bold;
+stroke:#ffffff;
+stroke-width:2px;
+}
+
+.wtd-13 {
+font-size: 66px;
+font-family: Swiss721BT-Roman, Arial, sans-serif;
+font-weight: bold;
+}
+
+.wtd-15 {fill: #FFAE00; visibility: hidden;}
+
+.wtd-16 {
+font-size: 52px;
+font-family: Swiss721BT-Bold, Arial, sans-serif;
+font-weight: bold;
+}
+
+.wtd-33 {fill: #ffae00;}
+
+.soc-1 {fill: #00373e;}
+.soc-2, .soc-3 {fill: #fff;}
+.soc-2 {fill-rule: evenodd;}

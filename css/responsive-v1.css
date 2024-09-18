@@ -1,0 +1,87 @@
+@media screen and (max-width: 600px) {
+
+    body {
+        border: 0px solid red;
+    }
+
+    .announce {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2.8em;
+        margin: 2%;
+        line-height: 1em;
+    }
+
+    h2,
+    .s2 h2 {
+        font-size: 2.1em;
+    }
+
+    p {
+        font-size: .95em;
+    }
+
+
+    img.intro-pic {
+        float: none;
+        display: block;
+        width: 90%;
+
+        padding-bottom: 17px:
+    }
+
+    .hero {
+        height: auto;
+        width: 92vw;
+        padding: 2vw;
+    }
+
+    .hero-4 {
+
+    font-size: 125px;
+
+
+    }
+
+    .s1,
+    .s2,
+    .s3,
+    .s4,
+    .s5,
+    .s6,
+    .s7 {
+        min-height: unset;
+    }
+
+    .plate-c {
+        display: block;
+    }
+
+
+    nav#aitsl-website {
+
+        position: absolute;
+        z-index: 200;
+        top: 20px;
+        left: 20px;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+    }
+
+    a.celb-buttons {
+        font-size: 1.2em;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+
+    #celebrate-decoration {
+        display: none;
+    }
+
+}
