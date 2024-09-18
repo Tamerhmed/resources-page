@@ -5,7 +5,8 @@
 	--wtd-23-pink-extra-dark: #ee20a3;
 	--clr-purple-5: #f6f5f9;
 	--clr-primary-100: #007377;
-	--clr-secondary-dark-100: #004851;
+	--clr-secondary-dark-100: #001876;
+	/* --clr-secondary-dark-100: #004851; */
 	--clr-primary-lime-60: #d3d766;
 	/* --clr-heading: #039191; */
 	--clr-heading: #0092e0;
@@ -14,7 +15,7 @@
 	--clr-main-bg: #f2fafc;
 	--clr-white: #fff;
 	--clr-text: #333;
-	--wtd-23-orange-light: #f9f1ea;
+	--wtd-23-orange-light: #f2faff;
 }
 
 html {
@@ -57,24 +58,41 @@ body {
 	z-index: 200;
 }
 
+.mobile-menu {
+	position: absolute;
+	top: 50px;
+	right: 30px;
+	/* width: 79px; */
+	z-index: 100;
+	color: #0092e0;
+}
+.mobile-menu .fa-solid{
+	font-size: 1.8rem;
+}
+
 #replay-pos:hover .re-2 {
 	opacity: 1;
 }
 
 #logo-pos #logo-bg {
-	fill: #00373e;
+	/* fill: #00373e; */
+	fill:rgba(207, 242, 250, 1);
 }
 
 #logo-pos #logo-device {
-	fill: #fff;
+	fill: #0092e0;
 }
 
 header {
 	background-color: var(--wtd-23-orange-light);
 	position: relative;
 	height: 60vh;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	height: 60vh;
+	/* padding-top: 60px;
+	padding-bottom: 60px; */
+}
+header .row {
+	--bs-gutter-x:0;
 }
 .logo-box {
 	/* width: 500px; */
@@ -100,7 +118,7 @@ header {
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus
 {
-	color: #f8bef4;
+	color: #fff;
 	/* transform: scaleX(1.02); */
 	/* padding: 8px 12px; */
 }
@@ -192,7 +210,7 @@ header {
 	font-style: normal;
 	font-weight: 700;
 	line-height: 60px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	margin-bottom: 1rem;
 	margin-top: 0;
 }
@@ -277,7 +295,7 @@ header {
 
 
 .title-container h2 {
-	text-transform: uppercase;
+	/* text-transform: capitalize; */
 	color: var(--clr-heading);
 	font-family: Oswald;
 	font-size: 36px;
@@ -298,6 +316,7 @@ header {
 	line-height: 31.5px;
 	margin: 0 auto;
 }
+
 
 .img-container {
 	cursor: pointer;
@@ -346,7 +365,7 @@ header {
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
-	text-transform: uppercase;
+	/* text-transform: capitalize; */
 }
 .social-cover-images-section .s-cover .img-thumbnail {
     padding: 0!important;
